@@ -50,6 +50,18 @@ Foram implementadas consultas para identificar:
 * Duplicidades parciais
 * Outliers em variáveis numéricas
 
+ ## Resultados
+
+As consultas SQL permitiram identificar:
+
+- Valores nulos em colunas críticas
+- Caracteres inválidos inseridos propositalmente para testes
+- Registros duplicados
+- Duplicidades parciais
+- Possíveis outliers em métricas de campanhas
+
+Essas verificações simulam atividades comuns de Data Cleaning realizadas antes da análise de dados.
+
 ## Aprendizados
 
 * Criação de tabelas em PostgreSQL
